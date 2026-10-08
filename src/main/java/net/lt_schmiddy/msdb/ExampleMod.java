@@ -17,7 +17,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(ExampleMod.MODID)
 public class ExampleMod {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "msdb";
+    public static final String MODID = "lts_msdb";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
